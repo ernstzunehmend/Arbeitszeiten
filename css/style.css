@@ -1,0 +1,129 @@
+body {
+	padding: 5px 20px;
+	background-color: #FAFAFA;
+}
+form legend, h1 {
+	font: normal 32px/48px Helvetica, sans-serif;
+	text-align: center;
+}
+.kunden {
+	margin: 0;
+}
+input {
+	-webkit-appearance: none;
+}
+input[type="radio"] {
+    background-color: #F00;
+    height: 50px;
+    width: 100%;
+    max-width: 50px;
+    margin: 0 auto 5px;
+    display: block;
+    border-radius: 360px;
+    border: 5px solid #FAFAFA;
+}
+input[type="radio"]:checked {
+	background-color: #FAFAFA;
+	border: 15px solid #000;
+}
+label {
+	width: 70px;
+	text-align: center;
+	font: normal 12px/12px Helvetica, sans-serif;
+	display: block;
+	margin: 5px 10px 0;
+	float: left;
+	min-height: 90px;
+}
+label.cid-1 input {background-color: #FF2151;} label.cid-1 input[type="radio"]:checked {border-color: #FF2151;}
+label.cid-2 input {background-color: #FF7B29;} label.cid-2 input[type="radio"]:checked {border-color: #FF7B29;}
+label.cid-3 input {background-color: #FFC629;} label.cid-3 input[type="radio"]:checked {border-color: #FFC629;}
+label.cid-4 input {background-color: #FCE9C8;} label.cid-4 input[type="radio"]:checked {border-color: #FCE9C8;}
+label.cid-5 input {background-color: #8B77B5;} label.cid-5 input[type="radio"]:checked {border-color: #8B77B5;}
+label.cid-6 input {background-color: #6ECAC7;} label.cid-6 input[type="radio"]:checked {border-color: #6ECAC7;}
+label.cid-7 input {background-color: #016483;} label.cid-7 input[type="radio"]:checked {border-color: #016483;}
+label.cid-8 input {background-color: #D92929;} label.cid-8 input[type="radio"]:checked {border-color: #D92929;}
+label.cid-9 input {background-color: #F2911B;} label.cid-9 input[type="radio"]:checked {border-color: #F2911B;}
+label.cid-10 input {background-color: #F2CB05;} label.cid-10 input[type="radio"]:checked {border-color: #F2CB05;}
+label.cid-11 input {background-color: #FF0C7A;} label.cid-11 input[type="radio"]:checked {border-color: #FF0C7A;}
+label.cid-12 input {background-color: #FF5EA2;} label.cid-12 input[type="radio"]:checked {border-color: #FF5EA2;}
+label.cid-13 input {background-color: #FFF3BD;} label.cid-13 input[type="radio"]:checked {border-color: #FFF3BD;}
+label.cid-14 input {background-color: #9FDCCC;} label.cid-14 input[type="radio"]:checked {border-color: #9FDCCC;}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 2px;
+	box-sizing: border-box;
+	font: normal 14px/12px Helvetica, sans-serif; 
+	margin: 20px 0 5px;
+	background-color: #FFF;
+}
+
+input[type="submit"], .btn {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 2px;
+	box-sizing: border-box;
+	font: bold 14px/12px Helvetica, sans-serif; 
+	margin: 5px 0;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+input.stop {
+	background-color: #FF2151;
+	color: #FAFAFA;
+	text-shadow: 1px 1px 0 #000;
+}
+input.stop:active {
+	-webkit-box-shadow: 0 0 5px #FF2151;
+}
+input.start {
+	background-color: #9FDCCC;
+	color: #333;
+	text-shadow: 1px 1px 0 #FAFAFA;
+}
+input.start:active {
+	-webkit-box-shadow: 0 0 5px #9FDCCC;
+}
+a.btn {
+	background-color: #999;
+	color: #FFF;
+	text-shadow: 1px 1px 0 #000;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 630px;
+}
+
+table {
+	width: 100%;
+	border: 10px solid #FFF;
+}
+table tr {
+	border-bottom: 1px solid #000;
+}
+table tr td {
+	padding: 10px;
+	background-color: #FFF;
+}
+table tr th {
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 5px solid #000;
+	padding: 10px;
+	background-color: #FFF;
+}
+li,
+td {
+	font: normal 12px/16px sans-serif;
+}
+ul {
+	list-style-position: outside;
+}
+
